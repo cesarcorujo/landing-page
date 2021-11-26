@@ -9,6 +9,12 @@ body {
   padding-right: 15%;
 }
 
+.main-page {
+  display: flex;
+  background-color: #1f2937;
+  height: 400px;
+}
+
 .right-menu {
   flex: 1;
   display: flex;
@@ -57,11 +63,9 @@ a {
 
 .button {
   border-radius: 25px;
-
   text-align: center;
   font-family: arial, helvetica, sans-serif;
-
-  background-color: #4caf50; /* Green */
+  background-color: #3882f6;
   border: none;
   color: white;
   margin-top: 20px;
@@ -83,29 +87,30 @@ img {
   flex: 1;
 }
 
-.main-page {
-  display: flex;
-  background-color: #1f2937;
-}
-
 .left-text-main {
   flex: 1;
 }
 
 .right-text-main {
   flex: 1;
-  text-align: center;
+  text-align: left;
   margin-top: 32px;
 }
 
 .random-title {
   text-align: center;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: bolder;
+  margin: 20px;
 }
 
 .random-information {
   display: flex;
   justify-content: center;
   text-align: center;
+  padding-left: 18%;
+  padding-right: 18%;
 }
 
 .box1,
@@ -113,8 +118,50 @@ img {
 .box3,
 .box4 {
   flex: 1;
+  gap: 10%;
+  height: 400px;
+}
+
+.box1,
+.box2,
+.box3,
+.box4 p {
+  padding-left: 12px;
+  padding-right: 12px;
 }
 
 .odin-bottom {
   background-color: #1f2937;
+}
+
+.random-information img {
+  border-radius: 15%;
+  height: 200px;
+  width: 180px;
+  border: 5px solid #3882f6;
+}
+
+.center-text {
+  background-color: #e5e7eb;
+  height: 400px;
+}
+
+#p1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  margin: 0px;
+  padding-top: 10%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+
+#p2 {
+  font-weight: bolder;
+  padding-top: -40px;
+  padding-left: 55%;
+  font-weight: bolder;
+  font-style: italic;
+  font-size: 25px;
 }
