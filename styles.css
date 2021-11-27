@@ -132,6 +132,9 @@ img {
 
 .odin-bottom {
   background-color: #1f2937;
+  padding: 8px 0;
+  text-align: center;
+  color: white;
 }
 
 .random-information img {
@@ -164,4 +167,53 @@ img {
   font-weight: bolder;
   font-style: italic;
   font-size: 25px;
+}
+
+.sign-up-container {
+  height: 300px;
+  display: flex;
+}
+
+.sign-up-box {
+  background-color: #3882f6;
+  flex: 1;
+  margin-top: 6%;
+  margin-right: 8%;
+  margin-left: 8%;
+  border-radius: 5px;
+  color: #f9faf8;
+  display: flex;
+  height: 150px;
+}
+
+.sign-up-text {
+  flex: 1;
+}
+
+.sign-up-text h2 {
+  padding-top: 20px;
+  padding-left: 100px;
+}
+
+.sign-up-text p {
+  margin-left: 100px;
+  margin-top: -15px;
+}
+
+.sign-up-button {
+  flex: 1;
+
+  text-align: center;
+}
+
+.button2 {
+  border-radius: 18px;
+  text-align: center;
+  font-family: arial, helvetica, sans-serif;
+  background-color: #3882f6;
+  border: 2px solid white;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  padding: 15px 32px;
 }
